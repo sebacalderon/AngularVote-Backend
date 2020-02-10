@@ -22,6 +22,7 @@ export const helloWorld = functions.https.onRequest((request, response) => {
     });
 });
 
+//No se va a ocupar pero se puede usar asi
 export const getGOTY = functions.https.onRequest(async (request, response) => {
     // const nombre = request.query.nombre || 'Sin nombre';
 
